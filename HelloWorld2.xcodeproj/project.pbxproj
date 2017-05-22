@@ -17,6 +17,7 @@
 		BEA5A37B1ECC92C600E8A326 /* HelloWorld2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA5A37A1ECC92C600E8A326 /* HelloWorld2Tests.swift */; };
 		BEA5A3861ECC92C600E8A326 /* HelloWorld2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA5A3851ECC92C600E8A326 /* HelloWorld2UITests.swift */; };
 		BEE42F061ED2343C00C97BC9 /* LightBulbEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE42F051ED2343C00C97BC9 /* LightBulbEnum.swift */; };
+		BEF319411ED2C39D008C81CC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF319401ED2C39D008C81CC /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BEA5A3871ECC92C600E8A326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEE42F031ED2327500C97BC9 /* LightBulb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightBulb.swift; sourceTree = "<group>"; };
 		BEE42F051ED2343C00C97BC9 /* LightBulbEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightBulbEnum.swift; sourceTree = "<group>"; };
+		BEF319401ED2C39D008C81CC /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				BEA5A3621ECC92C500E8A326 /* AppDelegate.swift */,
 				BEA5A3641ECC92C500E8A326 /* ViewController.swift */,
+				BEF319401ED2C39D008C81CC /* SecondViewController.swift */,
 				BEE42F051ED2343C00C97BC9 /* LightBulbEnum.swift */,
 				BEE42F031ED2327500C97BC9 /* LightBulb.swift */,
 				BEA5A3661ECC92C500E8A326 /* Main.storyboard */,
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF319411ED2C39D008C81CC /* SecondViewController.swift in Sources */,
 				BEE42F061ED2343C00C97BC9 /* LightBulbEnum.swift in Sources */,
 				BE8F46B21ED2378B00AA8888 /* LightBulb.swift in Sources */,
 				BEA5A3651ECC92C500E8A326 /* ViewController.swift in Sources */,
@@ -431,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CWK29L7ZPT;
 				INFOPLIST_FILE = HelloWorld2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.HelloWorld2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CWK29L7ZPT;
 				INFOPLIST_FILE = HelloWorld2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.HelloWorld2;
 				PRODUCT_NAME = "$(TARGET_NAME)";

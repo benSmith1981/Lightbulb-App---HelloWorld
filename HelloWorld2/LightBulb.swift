@@ -30,8 +30,10 @@ class LightBulb {
     }
     
     func flickerTorch() {
-        guard let device = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo) else { return }
-        
+        guard let device = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo) else {
+            return
+        }
+
         if device.hasTorch {
             do {
                 try device.lockForConfiguration()
@@ -44,4 +46,5 @@ class LightBulb {
             print("Torch is not available")
         }
     }
+    
 }

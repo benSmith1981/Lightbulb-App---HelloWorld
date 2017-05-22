@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D41F69F3A1EFE40EF10CFEF65046D0EC2C9CA559",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D41F69F3A1EFE40EF10CFEF65046D0EC2C9CA559" : 9223372036854775807,
+    "12F3127DAAD17789DD61F0D9A18305C552598BAC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D4CA24F5-A641-4482-A883-0A8EB3DC7CDC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D41F69F3A1EFE40EF10CFEF65046D0EC2C9CA559" : "HelloWorld2\/",
+    "12F3127DAAD17789DD61F0D9A18305C552598BAC" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HelloWorld2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HelloWorld2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/benSmith1981\/helloworldapp2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12F3127DAAD17789DD61F0D9A18305C552598BAC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/benSmith1981\/Lightbulb-App---HelloWorld.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D41F69F3A1EFE40EF10CFEF65046D0EC2C9CA559"
+    }
+  ]
+}

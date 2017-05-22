@@ -57,7 +57,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func flickerLightbulb(_ sender: Any) {
-        timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(flickerBulb), userInfo: nil, repeats: true)
+        
+        if timer.isValid {
+            timer.invalidate()
+        } else {
+            timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(flickerBulb), userInfo: nil, repeats: true)
+        }
         
     }
     
